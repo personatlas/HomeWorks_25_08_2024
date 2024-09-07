@@ -5,16 +5,18 @@ class Program
     static void Main(string[] args)
     {
 
+        //**6.** Kullanıcıdan alınan bir sayının trigonometrik sinüs değerini hesaplayan bir program yazın.
+        
         System.Console.WriteLine("Derece cinsinden bir sayı giriniz: ");
-        string cevap = Console.ReadLine();
+        double cevap = Convert.ToDouble(Console.ReadLine());
 
-        double cevap2 = double.Parse(cevap);
-
-        double result = Math.Sin(cevap2);
+        double result = Math.Sin(cevap);
 
         System.Console.WriteLine(result);
 
-        
+
+
+
 
 
     }

@@ -1,9 +1,15 @@
-﻿namespace soru10;
+﻿using System.Globalization;
+using System.Numerics;
+
+namespace soru10;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+      
+
+
+
     }
 }
